@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save--dev',
+1 verbose cli   'grunt-bower-sync' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.6
+4 verbose install initial load of C:\Sandbox\polymer\sample1\package.json
+5 warn package.json polymersample@1.0.0 No description
+6 warn package.json polymersample@1.0.0 No repository field.
+7 warn package.json polymersample@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from C:\Sandbox\polymer\sample1\node_modules\grunt\package.json
+9 verbose installManyTop reading scoped package data from C:\Sandbox\polymer\sample1\node_modules\grunt-wiredep\package.json
+10 info package.json grunt@0.4.5 No license field.
+11 info package.json grunt-wiredep@2.0.0 No license field.
+12 verbose readDependencies loading dependencies from C:\Sandbox\polymer\sample1\package.json
+13 silly cache add args [ 'grunt-bower-sync', null ]
+14 verbose cache add spec grunt-bower-sync
+15 silly cache add parsed spec { raw: 'grunt-bower-sync',
+15 silly cache add   scope: null,
+15 silly cache add   name: 'grunt-bower-sync',
+15 silly cache add   rawSpec: '',
+15 silly cache add   spec: '*',
+15 silly cache add   type: 'range' }
+16 silly addNamed grunt-bower-sync@*
+17 verbose addNamed "*" is a valid semver range for grunt-bower-sync
+18 silly addNameRange { name: 'grunt-bower-sync', range: '*', hasData: false }
+19 silly mapToRegistry name grunt-bower-sync
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/grunt-bower-sync
+23 verbose addNameRange registry:https://registry.npmjs.org/grunt-bower-sync not in flight; fetching
+24 verbose request uri https://registry.npmjs.org/grunt-bower-sync
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 09:31:23
+27 verbose request id 736183702d3dcb2e
+28 http request GET https://registry.npmjs.org/grunt-bower-sync
+29 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+30 info attempt registry request try #2 at 09:31:33
+31 http request GET https://registry.npmjs.org/grunt-bower-sync
+32 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org
+33 info attempt registry request try #3 at 09:32:33
+34 http request GET https://registry.npmjs.org/grunt-bower-sync
+35 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org
+35 verbose stack     at errnoException (dns.js:44:10)
+35 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+36 verbose cwd C:\Sandbox\polymer\sample1
+37 error Windows_NT 6.1.7601
+38 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save--dev" "grunt-bower-sync"
+39 error node v0.12.6
+40 error npm  v2.11.2
+41 error code ENOTFOUND
+42 error errno ENOTFOUND
+43 error syscall getaddrinfo
+44 error network getaddrinfo ENOTFOUND registry.npmjs.org
+44 error network This is most likely not a problem with npm itself
+44 error network and is related to network connectivity.
+44 error network In most cases you are behind a proxy or have bad network settings.
+44 error network
+44 error network If you are behind a proxy, please make sure that the
+44 error network 'proxy' config is set properly.  See: 'npm help config'
+45 verbose exit [ 1, true ]
